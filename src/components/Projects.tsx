@@ -102,7 +102,7 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-{/*                 <div className="mt-4 flex gap-4">
+                <div className="mt-4 flex gap-4">
                   <a
                     href={project.github}
                     className="flex items-center text-sm font-semibold text-gray-300 hover:text-white transition-colors duration-300"
@@ -117,7 +117,7 @@ export default function Projects() {
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Live Demo
                   </a>
-                </div> */}
+                </div>
               </div>
             </motion.article>
           ))}
